@@ -1,0 +1,101 @@
+// Here you can add other styles
+.commanBtn {
+    background: #ff4d67;
+    border: 0px;
+    // border-color: #FD788C;
+}
+.commanBtn:hover { background:#ff4d67}
+.error-msg{
+    color: red;
+}
+.success-msg {
+    color: green;
+    font-weight: 400;
+  }
+
+.editIcon{
+  color: white;
+  padding: 0px;
+  margin: 2px;
+  font-size: 1.5rem !important;
+  border: 1px solid  transparent;
+  cursor: pointer;
+  background-color: #ff4d67; 
+}
+
+.deleteIcon {
+  color: white;
+  padding: 0px;
+  margin: 2px;
+  font-size: 1.5rem !important;
+  border: 1px solid  transparent;
+  cursor: pointer;
+  background-color: #ff4d67; 
+}
+.login-page{
+    background-image: url("../assets/images/banner.jpg");
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.btn-update{
+    width:40px;
+    height:50px;
+}
+
+.generalBtn{
+         position: absolute;
+          top: 90;
+          right: 50;
+          border-radius: 1;
+          font-weight: bold;
+          margin-bottom: 10px;
+          background-color: #ff4d67;
+}
+
+.theme-btn{
+    background-color: #ff4d67;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
+    padding: 6px;
+}
+
+/* styles.css */
+
+/* Default styles for larger screens */
+.responsive-table {
+    width: 100%;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .responsive-table {
+      overflow-x: auto;
+    }
+  }
+  
+
+  @media (max-width: 900px) {
+    .MuiTableHead-root {
+      display: none !important;
+    }
+    .MuiTableCell-sizeMedium {
+      display: inline-block !important;
+    }
+    .MuiTableCell-paddingCheckbox {
+      display: table-cell !important;
+    }
+  }
+  @media (max-width: 426px) {
+    .tss-1vd39vz-MUIDataTableBodyCell-stackedCommon {
+      font-size: 10px !important;
+    }
+  }
+  // .status-field {
+  //   color: red;
+  //   font-weight: bold;
+  //   /* Add other styles as needed */
+  // }
+  .dashboradData{
+    margin-left: 20px;
+  }
